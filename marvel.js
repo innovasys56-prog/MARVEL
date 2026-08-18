@@ -59,7 +59,7 @@ const mcuData = [
     { id: "doctor-strange-2", title: "Doctor Strange en el Multiverso de la Locura", year: "2024", type: "peli", era: "Saga del Multiverso", poster: "https://www.cinemascomics.com/wp-content/uploads/2022/04/poster-doctor-strange-en-el-multiverso-de-la-locura-2.jpg" },
     { id: "deadpool-3", title: "Deadpool & Wolverine", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://www.tomosygrapas.com/wp-content/uploads/2024/04/Deadpool-3-poster-1.jpg" },
     { id: "daredevil-ba", title: "Daredevil: Born Again", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://www.cinemascomics.com/wp-content/uploads/2026/03/Daredevil-Born-Again-poster-02.jpg" },
-    { id: "sm-bnd", title: "Spider-Man: Brand New Day", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://cdn.marvel.com/content/1x/spidermanbrandnewday_lob_crd_02.webp" },
+    { id: "sm-bnd", title: "Spider-Man: Brand New Day", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://cdn.marvel.com/content/1x/spidermanbrandnewday_lob_crd_02.webp" },
     { id: "avengers-doomsday", title: "Avengers: Doomsday", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/7WU8xhLhiCYuRB2VcBnUMvo6kST.jpg" }
 ];
 
