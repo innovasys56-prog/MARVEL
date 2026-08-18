@@ -95,11 +95,12 @@ const mcuData = [
     { id: "the-marvels", title: "The Marvels", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/y4YMYsGSMwu8e985g0Zbumvqxld.jpg" },
     { id: "deadpool-3", title: "Deadpool & Wolverine", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://www.tomosygrapas.com/wp-content/uploads/2024/04/Deadpool-3-poster-1.jpg" },
     { id: "agatha", title: "Agatha en todas partes", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/qiTk8O471Rvrbq8u1wnBKh0ZqGo.jpg" },
+    { id: "wonder-man", title: "Wonder Man", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/z5xlxga7oc2eGVpS9vw38ULA9nr.jpg" },
     { id: "capitan-america-4", title: "Capitán América: Brave New World", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/pVMSRyAiye7gZ8NtuCt1qgbspY9.jpg" },
     { id: "thunderbolts", title: "Thunderbolts*", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg" },
     { id: "fantastic-four", title: "Los 4 Fantásticos: Primeros Pasos", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/7xvPyfuBqdGFt4adeI6VxhlVRsk.jpg" },
     { id: "ironheart", title: "Ironheart", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/cXYl3KW0vCjzF7zRCDKZyLbctzj.jpg" },
-    { id: "daredevil-ba", title: "Daredevil: Born Again", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://www.cinemascomics.com/wp-content/uploads/2026/03/Daredevil-Born-Again-poster-02.jpg" },
+    { id: "daredevil-ba", title: "Daredevil: Born Again (T1 y T2)", year: "2026", type: "serie", era: "Saga del Multiverso", poster: "https://www.cinemascomics.com/wp-content/uploads/2026/03/Daredevil-Born-Again-poster-02.jpg" },
     { id: "sm-bnd", title: "Spider-Man: Brand New Day", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://cdn.marvel.com/content/1x/spidermanbrandnewday_lob_crd_02.webp" },
     { id: "avengers-doomsday", title: "Avengers: Doomsday", year: "2026", type: "peli", era: "Saga del Multiverso", poster: "https://image.tmdb.org/t/p/original/7WU8xhLhiCYuRB2VcBnUMvo6kST.jpg" }
 ];
