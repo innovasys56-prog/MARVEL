@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronología Oficial del UCM</title>
+    <link rel="stylesheet" href="css/marvel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="auth-bar" class="auth-bar">
+        <div id="user-info" class="user-info"></div>
+        <button id="auth-btn" class="auth-btn">Iniciar Sesión</button>
+        <button id="admin-panel-btn" class="auth-btn admin-btn" style="display:none;">Panel de Administración</button>
+    </div>
+
+    <section class="doomsday-banner">
+        <h2>AVENGERS: DOOMSDAY</h2>
+        <p>Cuenta regresiva para el estreno (17 de Diciembre de 2026):</p>
+        <div id="countdown" class="countdown-timer">
+            <div><span id="days">00</span><label>Días</label></div>
+            <div><span id="hours">00</span><label>Horas</label></div>
+            <div><span id="minutes">00</span><label>Minutos</label></div>
+            <div><span id="seconds">00</span><label>Segundos</label></div>
+        </div>
+    </section>
+
+    <header>
+        <h1>Cronología <span>UCM</span></h1>
+        <p>Orden cronológico oficial del Universo Cinematográfico de Marvel</p>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Buscar título o año (ej: 2024, Iron Man)...">
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="peli">Películas</button>
+                <button class="filter-btn" data-filter="serie">Series Disney+</button>
+                <button class="filter-btn" data-filter="netflix">Defenders / Netflix</button>
+                <button class="filter-btn" data-filter="especial">Especiales</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="timeline-container">
+        <div class="timeline" id="timelineList"></div>
+    </main>
+
+    <div id="auth-modal" class="modal">
+        <div class="modal-content auth-modal-content">
+            <span class="close-modal close-auth">&times;</span>
+            <div class="auth-tabs">
+                <button id="tab-login" class="tab-btn active">Iniciar Sesión</button>
+                <button id="tab-register" class="tab-btn">Crear Cuenta</button>
+            </div>
+            
+            <form id="login-form" class="auth-form">
+                <h3>Iniciar Sesión</h3>
+                <input type="email" id="login-email" placeholder="Correo electrónico" required>
+                <input type="password" id="login-password" placeholder="Contraseña" required>
+                <button type="submit" class="auth-submit-btn">Ingresar</button>
+            </form>
+
+            <form id="register-form" class="auth-form" style="display:none;">
+                <h3>Crear Cuenta</h3>
+                <input type="email" id="register-email" placeholder="Correo electrónico" required>
+                <input type="password" id="register-password" placeholder="Contraseña (mínimo 6 caracteres)" required>
+                <button type="submit" class="auth-submit-btn">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="admin-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal close-admin">&times;</span>
+            <h2>Panel de Control del Administrador</h2>
+            <div id="admin-users-list">Cargando registros de usuarios...</div>
+        </div>
+    </div>
+
+    <script type="module" src="js/marvel.js"></script>
+</body>
+</html>
